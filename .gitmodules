@@ -1,3 +1,4 @@
 [submodule "no2usb"]
 	path = no2usb
-	url = https://github.com/no2fpga/no2usb.git
+	url = https://github.com/mbalestrini/no2usb.git
+	branch = sky130
