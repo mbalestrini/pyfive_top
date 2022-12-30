@@ -389,7 +389,7 @@ module pyfive_top (
 	assign wb_ack[4] = ram_ack;
 	assign wb_rdata[4] = ram_ack ? ram_rdata : 32'h00000000;
 
-	sram_1rw1r_32_256_8_sky130 ram_I (
+	sky130_sram_1kbyte_1rw1r_32x256_8 ram_I (
 		.clk0   (clk),
 		.csb0   (1'b0),
 		.web0   (~ram_we),

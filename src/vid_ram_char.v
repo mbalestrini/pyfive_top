@@ -54,7 +54,7 @@ module vid_ram_char (
 	// RAM instances
 	// -------------
 
-	sram_1rw1r_32_256_8_sky130 ram_I (
+	sky130_sram_1kbyte_1rw1r_32x256_8 ram_I (
 		.clk0   (cp_clk),
 		.csb0   (1'b0),
 		.web0   (~cp_we_0),

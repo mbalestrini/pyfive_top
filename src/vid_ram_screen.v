@@ -52,7 +52,7 @@ module vid_ram_screen (
 	// RAM instances
 	// -------------
 
-	sram_1rw1r_32_256_8_sky130 ram_hi_I (
+	sky130_sram_1kbyte_1rw1r_32x256_8 ram_hi_I (
 		.clk0   (cp_clk),
 		.csb0   (1'b0),
 		.web0   (cp_web_i_0[1]),
@@ -66,7 +66,7 @@ module vid_ram_screen (
 		.dout1  (vp_data_2[63:32])
 	);
 
-	sram_1rw1r_32_256_8_sky130 ram_lo_I (
+	sky130_sram_1kbyte_1rw1r_32x256_8 ram_lo_I (
 		.clk0   (cp_clk),
 		.csb0   (1'b0),
 		.web0   (cp_web_i_0[0]),
