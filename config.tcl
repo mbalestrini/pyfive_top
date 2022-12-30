@@ -1,7 +1,7 @@
 # Design
 set ::env(DESIGN_NAME) "pyfive_top"
 
-set ::env(DESIGN_IS_CORE) 1
+set ::env(DESIGN_IS_CORE) 0
 
 # Diode insertion
 	#  Spray
