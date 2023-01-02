@@ -1,6 +1,6 @@
 ## Changes made to original pyfive_top design presented for MPW-1
 
-- Adapt config.tcl current tools
+- Adapt config.tcl for current shuttle tools
 - Replace `sram_1rw1r_32_256_8_sky130` with `sky130_sram_1kbyte_1rw1r_32x256_8` in config.tcl, verilog files and placement
     > Matthew Guthaus:  the sram_* one is the initial prototype made with the commercial PDK before the MPWs. Use the sky_* one.
 
